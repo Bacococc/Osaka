@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+*{margin: 0; padding: 0;}
+body{
+    /* background-color: rgb(255, 155, 201); */
+    font-family: 'Noto Sans KR', sans-serif;
+    overflow-x: hidden
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.scrollTop{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgb(255, 155, 201);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 40px;
+    font-size: 24px;
+    opacity: 0.7;
+    transition: 0.3s;
+    z-index: 100;
+}
+.scrollTop:hover{
+    opacity: 1;
+}
+html{
+    scroll-behavior: smooth;
+}
+.menuContainer{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 0px 1px#999;
+    display: flex;
+    justify-content: center;
+}
+.menu-item > a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.menu-item > a:hover{
+    font-size: 18px;
+    transition: 0.2s;
+}
+.menu{
+    width: 1090px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    line-height: 70px;
+}
+.menu-item{
+    list-style: none;
+    margin-right: 100px;
+}
+.menu img{
+    margin-top:10px; 
+}
+.picture{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.introText{
+    position: absolute;
+    top: 35%;
+}
+.introText > h1{
+    color: #fff;
+    text-shadow: 0 2px 1px rgba(0, 0, 0, .3), 0 0 .5rem rgba(0, 0, 0, .5);
+    font-size: 4em;
+    text-align: center;
+}
+.introText > h5{
+    color: #fff;
+    text-shadow: 0 2px 1px rgba(0, 0, 0, .3), 0 0 .5rem rgba(0, 0, 0, .5);
+    font-size: 2em;
+}
+.picture > img{
+    object-fit: cover;
+}
+.boxContainer1 > .first{
+    font-size: 44px;
+}
+.boxContainer1 > .left-box1{
+    width: 1300px;
+    height: 400px;
+    background-color: rgba(255, 155, 201,0.2);
+}
+
+.boxContainer1 > h1:first-child{
+    font-size: 50px;
+    margin-left: 15%;
+    color: rgba(255, 155, 201,0.2);
+}
+.boxContainer1 > h1:nth-child(2){
+    font-size: 35px;
+    left: 15%;
+    color: rgba(0, 0, 0,0.9);
+    position: absolute;
+}
+.boxContainer1{
+    position: relative;
+}
+.textBox1{
+    position: absolute;
+    top: 27%;
+    left: 17%;
+    height: 370px;
+    width: 460px;
+}
+.textBox1 > p{
+    color: #000;
+}
+.imgContainer{
+    margin: 30px 200px;
+    width: 2000px;
+    height: 800px;
+}
+.imgContainer > img:first-child{
+    margin-left: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.imgContainer > img:nth-child(2){
+    margin-right: 300px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.imgContainer > img:nth-child(3){
+    margin-left: 140px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.imgContainer > img:nth-child(4){
+    margin-right: 300px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.boxContainer2{
+    position: relative;
+    float: right;
+    text-align: right;
+}
+.boxContainer2 > h1:first-child{
+    font-size: 50px;
+    margin-right: 65.5%;
+    color: rgba(255, 155, 201,0.2);
+}
+.boxContainer2 > h1:nth-child(2){
+    font-size: 40px;
+    color: rgba(0, 0, 0,0.9);
+    position: absolute;
+    left: 30%;
+}
+.boxContainer2 > .right-box2{
+    width: 1300px;
+    height: 400px;
+    background-color: rgba(255, 155, 201,0.2);
+}
+.boxContainer2{
+    position: relative;
+    clear: both
+}
+.textBox2{
+    text-align: left;
+    position: absolute;
+    top: 29%;
+    right: 31%;
+    height: 370px;
+    width: 460px;
+}
+.imgBox{
+    position: relative;
+    top: 20%;
+    right: 13%;
+    width: 1130px;
+    height: 630px;
+}
+.imgBox > img:first-child{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top: 10%;
+}
+.imgBox > img:nth-child(2){
+    width: 380px;
+    height: 380px;
+    position: absolute;
+    left: 30%;
+    bottom: 2%;
+}
+.imgBox > img:nth-child(3){
+    width: 330px;
+    height: 370px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.boxContainer3 {
+    padding-top: 300px;
+    position: relative;
+    margin-bottom: 450px;
+    clear: both
+}
+.boxContainer3>h1:first-child{
+    font-size: 50px;
+    margin-left: 15%;
+    color: rgba(255, 155, 201,0.2);
+}
+.boxContainer3 > .left-box2{
+    position: relative;
+    width: 1300px;
+    height: 400px;
+    background-color: rgba(255, 155, 201,0.2);
+}
+.textBox3{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    height: 370px;
+    width: 540px;
+}
+.boxContainer3>h1:nth-child(2){
+    font-size: 35px;
+    left: 15%;
+    color: rgba(0, 0, 0,0.9);
+    position: absolute;
+    z-index: 100;
+}
+.imgBox2{
+    width: 1130px;
+    height: 540px;
+    padding-top: 60px;
+    position: absolute;
+}
+.img{
+    position: relative;
+    width: 1130px;
+    height: 540px;
+}
+.img > img:nth-child(3){
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.img > img:nth-child(1){
+    position: absolute;
+    left: 50px;
+    bottom: 90px;
+}
+.img > img:nth-child(2){
+    position: absolute;
+    left: 350px;
+    bottom: 20px;
+    z-index: 100;
+}
+.boxContainer4{
+    position: relative;
+    margin-bottom: 750px;
+}
+.boxContainer4 > h1:first-child{
+    font-size: 50px;
+    color: rgba(255, 155, 201,0.2);
+    margin-left: 52.3%;
+}
+.boxContainer4 > h1:nth-child(2){
+    font-size: 35px;
+    color: rgba(0, 0, 0,0.9);
+    position: absolute;
+    left: 52.3%;
+    z-index: 100;
+}
+.boxContainer4 > .right-box3{
+    width: 1300px;
+    height: 400px;
+    background-color: rgba(255, 155, 201,0.2);
+    position: absolute;
+    right: 0;
+}
+.textBox4{
+    height: 370px;
+    width: 540px;
+    margin-left: 435px;
+    padding-top: 58px;
+}
+.imgBox3{
+    width: 1130px;
+    height: 595px;
+    position: absolute;
+    top: 170px;
+    left: -270px;
+}
+.img1{
+    position: relative;
+    width: 1130px;
+    height: 595px;
+}
+.img1 > img:first-child{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.img1 > img:nth-child(2){
+    position: absolute;
+    left: 55%;
+    bottom: 0;
+    z-index: 100;
+}
+.img1 > img:nth-child(3){
+    position: absolute;
+    right: 0;
+    bottom: 200px;
+}
+.boxContainer5{
+    margin-bottom: 450px;
+}
+.boxContainer5 > .left-box3{
+    width: 1300px;
+    height: 400px;
+    background-color: rgba(255, 155, 201,0.2);
+    position: relative;
+}
+.boxContainer5 > h1:first-child{
+    font-size: 50px;
+    color: rgba(255, 155, 201,0.2);
+    margin-left: 15%;
+}
+.boxContainer5 > h1:nth-child(2){
+    font-size: 35px;
+    color: rgba(0, 0, 0,0.9);
+    z-index: 100;
+    position: absolute;
+    left: 15%;
+}
+.textBox5{
+    width: 540px;
+    height: 130px;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+.imgBox4{
+    width: 1130px;
+    height: 490px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.img2{
+    width: 1130px;
+    height: 490px;
+    position: relative;
+}
+.img2 > img:first-child{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.img2 > img:nth-child(2){
+    position: absolute;
+    left: 10.2%;
+    bottom: 6%;
+}
+.finish{
+    background-color: #313131;
+    height: 120px;
+    color: white;
+    text-align: center;
+
+}
